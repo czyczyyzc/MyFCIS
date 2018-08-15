@@ -6,4 +6,3 @@ A re-implementation of FCIS with tensorflow
 ![Image3](https://github.com/czyczyyzc/MyFCIS/blob/master/example/2010_000666.jpg)
 ![Image4](https://github.com/czyczyyzc/MyFCIS/blob/master/example/2010_000710.jpg)
 ![Image5](https://github.com/czyczyyzc/MyFCIS/blob/master/example/2010_000694.jpg)
-###![Image6](https://github.com/czyczyyzc/MyFCIS/blob/master/example/yale1.jpg)
