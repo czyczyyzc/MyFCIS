@@ -42,7 +42,7 @@ def test():
     #sov.train()
     #print("TESTING...")
     sov.test()
-    sov.display_detections(show=True, save=True)
+    sov.display_detections(show=False, save=True)
     #solver.show_loss_acc()
     """
     plt.subplot(2, 1, 1)
