@@ -1058,7 +1058,7 @@ class GeneratorForCOCO(object):
         rat     = np.tile(rat, [2])
         boxs    = boxs - beg
         boxs    = boxs * rat
-        boxs    = bbox_clip_py(boxs, [0.0, 0.0, img_hgt-1.0, img_wdh-1.0])
+        boxs    = bbox_clip_py(boxs, [0.0, 0.0, img_hgt_-1.0, img_wdh_-1.0])
         
         ###The second transform stage for masks###
         img_wdw = img_wdw.astype(dtype=np.int32, copy=False)
@@ -1696,7 +1696,7 @@ class GeneratorForVOC(object):
         rat     = np.tile(rat, [2])
         boxs    = boxs - beg
         boxs    = boxs * rat
-        boxs    = bbox_clip_py(boxs, [0.0, 0.0, img_hgt-1.0, img_wdh-1.0])
+        boxs    = bbox_clip_py(boxs, [0.0, 0.0, img_hgt_-1.0, img_wdh_-1.0])
         
         ###The second transform stage for masks###
         img_wdw = img_wdw.astype(dtype=np.int32, copy=False)
